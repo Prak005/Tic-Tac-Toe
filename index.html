@@ -11,19 +11,21 @@
     <div class="container">
         <header>
             <h2>Tic-Tac-Toe</h2>
-            <button id="new-game">New Game</button>
+            <button class="btn" id="new-btn">New Game</button>    
         </header>
-        <div class="player">Player 1
-            <button id="player-1">O</button>
-        </div>
-        <div class="player">Player 2
-            <button id="player-2">X</button>
+        <div class="player-selection">
+            <div class="player">Player 1
+                <button class="btn" id="player-1">O</button>
+            </div>
+            <div class="player">Player 2
+                <button class="btn" id="player-2">X</button>
+            </div>
         </div>
         <div class="game-board"></div>
         <div class="score">
-            <div class="score-1">0</div>
-            <div class="score-2">0</div>
-            <div class="ties">0</div>
+            <div class="score">Player-1 : <div id="score1">0</div></div>
+            <div class="score">Player-2 : <div id="score2">0</div></div>
+            <div>Ties : <div id="tie">0</div></div>
         </div>
     </div>
 </body>
