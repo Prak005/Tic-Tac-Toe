@@ -24,6 +24,9 @@ header{
     justify-content: space-between;
     gap: 1rem;
 }
+h2{
+    font-size: 1.25rem;
+}
 .btn{
     border-radius: 8px;
     border: none;
@@ -34,7 +37,9 @@ header{
     color: white;   
 }
 #new-btn{
-    background: cyan;
+    background-color: orange;
+    color: black;
+    font-weight: 400;
 }
 .player-selection{
     display: flex;
@@ -48,6 +53,12 @@ header{
     gap: 0.5rem;
     padding: 0.5rem;
     border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+#player-1, #player-2{
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
 }
 .game-board{
     display: grid;
@@ -72,7 +83,7 @@ header{
 .cell:hover{
     transform: translateY(-4px);
 }
-.cell:active{
+.cell:active, #new-btn:active{
     transform: translateZ(-10px) scale(0.95);
 }
 .scoreboard{
@@ -86,6 +97,7 @@ header{
     padding: 1rem;
     border-radius: 8px;
     font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.04);
 }
 
 @media (max-width: 420px) {
