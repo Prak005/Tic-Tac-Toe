@@ -78,7 +78,7 @@ h2{
     cursor: pointer;
     user-select: none;
     aspect-ratio: 1/1;
-    transition: transform 120mx ease, background 120mx ease;
+    transition: transform 120ms ease, background 120ms ease;
 }
 .cell:hover{
     transform: translateY(-4px);
